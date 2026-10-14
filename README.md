@@ -55,7 +55,7 @@ The analysis covers:
 
 ## Data Quality Considerations
 
-Purchase-event counts and distinct transaction counts are not interchangeable. Repeated transaction identifiers do not necessarily prove duplicate purchases, and selecting the maximum revenue per transaction is an estimate rather than a verified accounting measure. Revenue figures are therefore interpreted in the context of the source data and aggregation method. The dataset is historical and obfuscated, and the findings should not be treated as current business performance or profit.
+Purchase-event counts and distinct transaction counts measure different things. Repeated transaction IDs do not automatically indicate duplicate purchases, and the maximum-revenue-per-transaction calculation is an estimate, not a verified accounting figure. Revenue findings should therefore be interpreted with these limitations in mind. The dataset is historical and obfuscated, so the results do not represent current business performance or verified profit.
 
 ## Business Recommendations
 
