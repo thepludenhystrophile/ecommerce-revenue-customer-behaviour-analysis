@@ -19,7 +19,6 @@ The analysis examines event-level e-commerce data to identify purchasing pattern
 
 - SQL
 - Google BigQuery
-- GitHub
 
 ## Dataset
 
@@ -36,7 +35,6 @@ The dataset contains event-level customer activity, purchase records, transactio
 The project uses SQL aggregation, conditional calculations, common table expressions (CTEs), distinct counts, window-independent grouping, and `UNNEST` to examine nested product data.
 
 The analysis covers:
-
 - Event frequency and user engagement
 - Monthly purchase activity and recorded revenue
 - Average revenue per transaction
@@ -57,9 +55,7 @@ The analysis covers:
 
 ## Data Quality Considerations
 
-Purchase-event counts and distinct transaction counts are not interchangeable. Repeated transaction identifiers do not necessarily prove duplicate purchases, and selecting the maximum revenue per transaction is an estimate rather than a verified accounting measure.
-
-Revenue figures are therefore interpreted in the context of the source data and aggregation method. The dataset is historical and obfuscated, and the findings should not be treated as current business performance or profit.
+Purchase-event counts and distinct transaction counts are not interchangeable. Repeated transaction identifiers do not necessarily prove duplicate purchases, and selecting the maximum revenue per transaction is an estimate rather than a verified accounting measure. Revenue figures are therefore interpreted in the context of the source data and aggregation method. The dataset is historical and obfuscated, and the findings should not be treated as current business performance or profit.
 
 ## Business Recommendations
 
